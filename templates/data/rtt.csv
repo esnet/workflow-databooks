@@ -1,0 +1,5 @@
+site,values_tcp_rtt_min,values_tcp_rtt_max,values_tcp_rtt_std,values_tcp_rtt_avg
+SLAC,0.001,2.158,0.007,0.006
+ANL,47.68,97.985,5.876,54.175
+BNL,70.699,110.908,9.996,74.17
+ORNL,67.969,107.683,1.138,68.492
