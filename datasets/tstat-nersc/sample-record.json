@@ -1,0 +1,110 @@
+{
+  "_index": "dtn-tstat-2018.02.16",
+  "_type": "doc",
+  "_id": "_btZn2EBkBSN8YCW_ybk",
+  "_version": 1,
+  "_score": None,
+  "_source": {
+    "meta": {
+      "flow_type": "tstat",
+      "instance_id": 0,
+      "src_ip": "129.59.122.20",
+      "dst_ip": "128.55.205.18",
+      "dst_port": 22,
+      "sensor_id": "dtn01.nersc.gov",
+      "protocol": "tcp",
+      "src_port": 10106
+    },
+    "values": {
+      "tcp_pkts_reor": 0,
+      "tcp_max_seg_size": 1448,
+      "packets_per_second": 1801.48,
+      "tcp_pkts_rto": 0,
+      "tcp_rtt_avg": 0.029,
+      "tcp_win_min": 4,
+      "tcp_syn_cnt": 1,
+      "tcp_pkts_unrto": 0,
+      "tcp_rtt_max": 40.89,
+      "tcp_min_seg_size": 4,
+      "tcp_pkts_unfs": 0,
+      "tcp_pkts_unk": 0,
+      "tcp_mss": 1460,
+      "num_bits": 1330743656,
+      "tcp_rtt_min": 0.001,
+      "tcp_cwin_min": 4,
+      "tcp_window_scale": 5,
+      "num_packets": 120665,
+      "tcp_pkts_fs": 3,
+      "tcp_win_max": 376016,
+      "tcp_rexmit_bytes": 12540,
+      "duration": 66.98,
+      "tcp_rtt_std": 0.844,
+      "tcp_sack_cnt": 848,
+      "tcp_initial_cwin": 21,
+      "bits_per_second": 19867519.72,
+      "tcp_pkts_dup": 9,
+      "tcp_out_seq_pkts": 3,
+      "tcp_cwin_max": 376016,
+      "tcp_rexmit_pkts": 9,
+      "tcp_pkts_fc": 0
+    },
+    "percent_retrans": 0.008,
+    "end": 1518795949,
+    "interval": 600,
+    "tags": [
+      "dtn",
+      "tstat",
+      "metric",
+      "ndc"
+    ],
+    "source": "129.59.122.20",
+    "dest": "128.55.205.18",
+    "@version": "1",
+    "type": "flow",
+    "geoip": {
+      "region_name": "California",
+      "latitude": 37.8668,
+      "country_code2": "US",
+      "country_name": "United States",
+      "region_code": "CA",
+      "location": {
+        "lat": 37.8668,
+        "lon": -122.2536
+      },
+      "longitude": -122.2536,
+      "continent_code": "NA",
+      "country_code3": "US",
+      "ip": "128.55.205.18",
+      "timezone": "America/Los_Angeles",
+      "dma_code": 807,
+      "city_name": "Berkeley",
+      "postal_code": "94720"
+    },
+    "num_bytes": 166342957,
+    "file_size_MB": 166.34,
+    "@timestamp": "2018-02-16T16:02:08.854Z",
+    "throughput_Mbps": 19.9,
+    "start": 1518795882,
+    "ndc": {
+      "type": "tstat",
+      "system": "dtn",
+      "index_time": "2018-02-16 16:02:08",
+      "index_host": "ls5-3",
+      "amqp_queue": "ha-dtn-tstat2es5"
+    }
+  },
+  "fields": {
+    "@timestamp": [
+      "2018-02-16T16:02:08.854Z"
+    ],
+    "start": [
+      "2018-02-16T15:44:42.000Z"
+    ],
+    "end": [
+      "2018-02-16T15:45:49.000Z"
+    ]
+  },
+  "sort": [
+    1518795882000
+  ]
+}
